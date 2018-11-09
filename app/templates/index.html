@@ -10,5 +10,15 @@
     </head>
     <body>
       <h3>Welcome to news highlighter site</h3>
+
+
+        <h3> News Source</h3>
+         <ul>
+           {% for source_item in source %}
+         <li>{{source_item.name}}</li>
+         <!-- <a href="/article/{{source_item.id}}">News Articles</a> -->
+       {% endfor %}
+        </ul>
+
     </body>
 </html>
