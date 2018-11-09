@@ -105,3 +105,20 @@ def get_category(name):
             get_cartegory_results = process_articles(get_cartegory_list)
 
     return get_cartegory_results
+
+
+
+# def search_article(source_name):
+#     search_article_url = 'https://newsapi.org/v2/top-headlines?sources={}&apiKey={}'.format(id,api_key)
+#     with urllib.request.urlopen(search_article_url) as url:
+#         search_article_data = url.read()
+#         search_article_response = json.loads(search_article_data)
+#
+#         search_article_results = None
+#
+#         if search_article_response['sources']:
+#             search_article_list = search_article_response['sources']
+#             search_article_results = process_results(search_article_list)
+#
+#
+#     return search_article_results

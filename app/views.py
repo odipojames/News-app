@@ -14,7 +14,8 @@ def index():
     title = 'Home - Welcome to The best news highlighter Website Online'
     return render_template('index.html', title = title,source = source)
 
- #route to the articles.html page
+
+   #route to the articles.html page
 @app.route('/article/<article_id>')
 def article(article_id):
     '''
