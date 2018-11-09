@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        {% if title %}
-        <title> {{ title }}</title>
-        {% else %}
-        <title> Welcome to the best news highlighter website </title>
-        {% endif %}
-    </head>
-    <body>
-      {% block content %}
+{% extends 'bootstrap/base.html' %}
 
-       {% endblock%}
-    </body>
+<!-- entering the navbar -->
+{% block navbar %}
+    {% include 'navbar.html' %}
+{% endblock %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+  </head>
+  <body>
+    {% block content %}
+
+    {% endblock %}
+  </body>
 </html>
