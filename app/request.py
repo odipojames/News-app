@@ -3,12 +3,12 @@
 import urllib.request,json
 # from .models import source, article
 from  .models import Source,Article
-Source = source.Source
-Article = article.Article
+# Source = source.Source
+# Article = article.Article
 #api_key as a variable
 api_key = None
     #getting the apikey
-api_key = app.config['NEWS_API_KEY']
+# api_key = app.config['NEWS_API_KEY']
 #source url as a variable
 source_url = None
 def configure_request(app):

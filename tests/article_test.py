@@ -1,7 +1,7 @@
 import unittest
 from app.models import Article
 
-# Article = article.Article
+Article = article.Article
 
 
 class ArticleTest(unittest.TestCase):
