@@ -9,12 +9,13 @@
 {% block content %}
 <div class="container">
     <form>
-        <input type="text" name="movie_query" placeholder="Search for News" class="form-control">
+        <input type="text" name="movie_query" placeholder="Get the latest  News Worldwide" class="form-control">
         <input type="submit"  value="Submit" class="btn btn-default">
     </form>
 
 </div>
-    <h4>News Sources</h4>
+  <marquee>  <h4>News Headlines</h4></marquee>
+    <marquee direction="up"><h3>Find Out what is happening in your world</h3>  </marquee>
     <ul>
       {% for source_item in source %}
         <li>{{source_item.name}}</li>
