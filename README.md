@@ -41,7 +41,7 @@ virtualenv
 Cloning
 In your terminal:
 
-  $ git clone ****
+  $ git clone ****https://github.com/odipojames/News-app.git
   $ cd NewsPI
 Running the Application
 Creating the virtual environment
