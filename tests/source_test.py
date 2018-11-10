@@ -26,6 +26,3 @@ class SourceTest(unittest.TestCase):
         self.assertEqual(self.new_source.name, 'ABC News')
         self.assertEqual(self.new_source.description, 'blabla blabla')
         self.assertEqual(self.new_source.language, 'en')
-
-if __name__ == '__main__':
-    unittest.main()

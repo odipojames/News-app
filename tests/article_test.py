@@ -1,5 +1,5 @@
 import unittest
-from app.models import Article
+from app.models import article
 
 Article = article.Article
 
@@ -27,6 +27,3 @@ class ArticleTest(unittest.TestCase):
         self.assertEqual(self.new_article.url, 'd')
         self.assertEqual(self.new_article.image, 'e')
         self.assertEqual(self.new_article.time, 'f')
-
-if __name__ == '__main__':
-    unittest.main()
