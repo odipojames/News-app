@@ -1,7 +1,9 @@
-from flask import render_template
-from . import main
+from flask import render_template,request,redirect,url_for
+# from app import app
+from .import main
 from ..request import get_source,get_article,get_category
-# Views
+
+
 @main.route('/')
 def index():
 
