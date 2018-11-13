@@ -1,16 +1,16 @@
-News-app
-Built By Odipo James
+# News-app
+Built By **Odipo James**
 
 
 
-Description
+## Description
 News app  is a web application that displays a list of various news sources through https://news-app-python.herokuapp.com/ . On choosing a news source, it will preview the top news articles of the day. Clicking a news article will redirect the user to read it fully from the news source. It achieves this by using the News API.
 
 
 You can view the site at:Heroku
 
 
-User Stories
+## User Stories
 These are the behaviours/features that the application implements for use by a user.
 
 
@@ -23,7 +23,7 @@ See the image, description and time the news article was created
 Click on an article and read it fully from the news source
 
 
-Specifications
+## Specifications
 Behaviour	Input	Output
 Display news sources	On page load	List of various news sources is displayed in a list
 Display tabs with news by category	On Tab link click	Clickable links to open news based on category
@@ -32,18 +32,18 @@ Display the preview of an article	On page load	Each article displays an image,de
 To Read an entire article	Click an article	Redirected to the news source's site to read the entire article
 
 
-SetUp / Installation Requirements
+**SetUp / Installation Requirements**
 Prerequisites
 
 python3.6
 pip
 virtualenv
-Cloning
+**Cloning**
 In your terminal:
 
   $ git clone ****https://github.com/odipojames/News-app.git
   $ cd NewsPI
-Running the Application
+**Running the Application**
 Creating the virtual environment
 
   $ python3.6 -m venv --without-pip virtual
@@ -70,14 +70,15 @@ To run the application, in your terminal:
 
   $ chmod +x start.sh
   $ ./start.sh
-Testing the Application
+**Testing the Application**
 To run the tests for the class files:
 
   $ python3.6 manage.py tests
-Technologies Used
+## Technologies Used
 Python3.6
 Flask
-License
+
+## License
 Copyright (c) 2018 odipo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
